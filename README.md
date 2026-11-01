@@ -1,69 +1,81 @@
-# Сценарист Reels & TikTok (для Claude Code та Claude)
+# Reels & TikTok Scriptwriter (for Claude Code and Claude)
 
-Твій особистий сценарист для Reels, TikTok та Shorts українською мовою.
-Пише так, як говорить жива харизматична людина в камеру: сильні вірусні хуки, високе утримання уваги, нуль ШІ-слопу та шаблонності.
+Your personal scriptwriter for Reels, TikTok and Shorts - in **any language you choose**.
+It writes the way a real, charismatic person talks to the camera: strong viral hooks, high retention, zero AI slop and zero templates.
 
-Працює **виключно з короткими вертикальними відео**. Ніяких постів чи статей.
-Видає **чистий текст для вимови** - без режисерських ремарок і квадратних дужок.
-Всюди замість тире використовується виключно дефіс `-`.
-
----
-
-## Як це працює
-
-Будь-яка людина закидає цей архів у **Claude Code** (або у чат Claude).
-Claude одразу розуміє свою роль та запускає швидкий онбординг без зайвих слів:
-
-### 1. Швидке знайомство (2 кроки)
-1. **Перше повідомлення від Claude:**
-   > `Привіт. Розкажи за свою нішу.`
-   *(Ти просто пишеш свою нішу, наприклад: «таргет для товарки» або «нерухомість»).*
-2. **Claude одразу просить переписку (без дурних маркетингових питань про ЦА і болі):**
-   > `Тепер закинь свою скачану переписку з кимось (або скопіюй пачку своїх повідомлень), щоб я зняв твій стиль мовлення.`
-3. **Ти скидаєш повідомлення.**
-4. **Claude мовчки зберігає твій стиль у `profile.md` і відповідає рівно одним реченням:**
-   > `Я готовий. Скинь ідею рілса, і я напишу сценарій твоїми словами.`
+Works **only with short vertical videos**. No posts, no articles.
+Outputs **clean text to be spoken** - no stage directions, no square brackets.
+A plain hyphen `-` is used everywhere instead of dashes.
 
 ---
 
-## Що робити далі
+## How it works
 
-### Варіант А. Написати сценарій з нуля
-Просто кидаєш ідею:
-- *«Хочу рілс про те, чому клієнти зливаються після озвучення ціни»*
-- *«Напиши рілс про те, чому твої відео в Інстаграмі не залітають»*
+Anyone can drop this archive into **Claude Code** (or into a Claude chat).
+Claude immediately understands its role and starts a quick onboarding with no extra talk.
 
-### Варіант Б. Докрутити та покращити свій готовий рілс
-Кидаєш свій текст або чернетку:
-- *«Ось мій текст для рілса, докрути його: [твій текст]»*
+### 0. Language selection (always the first question, in English)
+> `Hi! Which language would you like to work in? (e.g. English, Українська, Polski, Español, Deutsch)`
 
-Claude миттєво зріже воду, поставить вибуховий хук, перепише все живою розмовною мовою і видасть готовий до зйомки сценарій.
+*(You reply with any language. Claude saves it to `profile.md`, and from that moment every question, every reply and every script is in that language.)*
+
+### 1. Quick introduction (2 steps, already in your language)
+1. **Claude asks about your niche:**
+   > `Tell me about your niche.`
+   *(You just write your niche, e.g. "ads for e-commerce" or "real estate".)*
+2. **Claude immediately asks for a chat sample (no silly marketing questions about target audience or pain points):**
+   > `Now drop in an exported chat with someone (or paste a batch of your own messages) so I can pick up your speaking style.`
+3. **You send the messages.**
+4. **Claude silently saves your style to `profile.md` and replies with exactly one sentence:**
+   > `I'm ready. Send me a Reel idea and I'll write the script in your own words.`
+
+*(The lines above are shown in English. If you chose Ukrainian, Polish, Spanish or any other language, Claude says the same thing naturally in that language.)*
 
 ---
 
-## Чистий формат сценарію (без дужок і ремарок)
+## What to do next
+
+### Option A. Write a script from scratch
+Just send an idea:
+- *"I want a Reel about why clients disappear after hearing the price"*
+- *"Write a Reel about why your Instagram videos don't take off"*
+
+### Option B. Polish and improve your own Reel
+Send your text or draft:
+- *"Here's my Reel text, make it stronger: [your text]"*
+
+Claude instantly cuts the fluff, adds an explosive hook, rewrites everything in lively spoken language and hands you a script ready to shoot.
+
+### Changing the language later
+Just say so (e.g. *"switch to English"* / *"давай українською"*). Claude updates `profile.md` and continues in the new language.
+
+---
+
+## Clean script format (no brackets, no directions)
 
 ```
-Хук:
-(ударне перше речення)
+Hook:
+(the punchy first sentence)
 
-Частина 1:
-(біль глядача, впізнавання ситуації)
+Part 1:
+(the viewer's pain, a situation they recognise)
 
-Частина 2:
-(інсайт або практична дія без води)
+Part 2:
+(the insight or practical action, no fluff)
 
-Кінець:
-(панч + заклик до дії)
+Ending:
+(punchline + call to action)
 ```
+
+*(The block labels are written in your chosen language, e.g. `Хук:` / `Частина 1:` / `Частина 2:` / `Кінець:` for Ukrainian.)*
 
 ---
 
-## Структура файлів
-- `CLAUDE.md` - файл автозапуску інструкцій для Claude Code.
-- `SKILL.md` - інструкції для скілів Claude.
-- `profile.md` - твій збережений профіль (ніша та голос), оновлюється автоматично.
-- `references/onboarding.md` - алгоритм швидкого знайомства.
-- `references/hooks.md` - формули вірусних тригерних хуків.
-- `references/anti-slop.md` - фільтр мертвої ШІ-мови, канцеляриту, тире та ремарок.
-- `references/human-techniques.md` - прийоми живих авторів та алгоритм докрутки.
+## File structure
+- `CLAUDE.md` - auto-loaded instructions for Claude Code.
+- `SKILL.md` - instructions for Claude Skills.
+- `profile.md` - your saved profile (language, niche and voice), updated automatically.
+- `references/onboarding.md` - the quick onboarding algorithm (language -> niche -> voice).
+- `references/hooks.md` - formulas for viral trigger hooks.
+- `references/anti-slop.md` - filter for dead AI language, bureaucratic phrasing, dashes and stage directions.
+- `references/human-techniques.md` - techniques of real creators and the draft-polishing algorithm.

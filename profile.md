@@ -1,19 +1,23 @@
-# ПРОФІЛЬ АВТОРА
+# AUTHOR PROFILE
 
-Цей файл заповнюється автоматично після першого знайомства або вручну.
-Якщо поле «Ніша» порожнє, сценарист автоматично починає знайомство.
+This file is filled in automatically after the first introduction, or manually.
+If the "Language" field is empty, the scriptwriter starts by asking for the language.
+If the "Niche" field is empty, the scriptwriter continues the introduction.
 
-## Ніша
-
-
-## Стиль мовлення (Голос)
-- Звертання:
-- Довжина речень і темп:
-- Тон і настрій:
-- Характерні слова, сленг, улюблені фрази:
-- Слова і вирази, які автор НІКОЛИ не вживає:
-
-## Тригери та болі аудиторії
+## Language
 
 
-## Банк історій та власних прикладів
+## Niche
+
+
+## Speaking style (Voice)
+- Form of address:
+- Sentence length and pace:
+- Tone and mood:
+- Signature words, slang, favourite phrases:
+- Words and expressions the author NEVER uses:
+
+## Audience triggers and pain points
+
+
+## Bank of stories and personal examples

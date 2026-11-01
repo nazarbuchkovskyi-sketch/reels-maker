@@ -1,41 +1,43 @@
-# Прийоми утримання уваги та побудова сценарію
+# Attention-retention techniques and script construction
 
-Сценарій - це чистий текст для суфлера чи вимови вголос. Жодних режисерських підказок чи квадратних дужок. Всюди замість тире тільки дефіс `-`.
+A script is clean text for a teleprompter or for speaking out loud. No director's hints or square brackets. Hyphen `-` only, never dashes.
 
-Тон мовлення: авторитетний, дорослий, спокійно-впевнений. Без зверхності, без паразитів на початку («ну глянь», «такс»), без копірайтерської термінології («зв'язка хук-причина-рішення») і без дитячих повчань.
+**Language:** write in the user's chosen language (`## Language` in `profile.md`), using their voice from `profile.md`. The examples below are in English only to show the quality bar.
 
----
-
-## 1. АНАТОМІЯ ЖИВОГО СЦЕНАРІЮ
-
-Сценарій складається строго з 4 частин:
-`Хук:` -> `Частина 1:` -> `Частина 2:` -> `Кінець:`.
-
-### Хук:
-- 1-2 сильні речення з напругою, цифрою або контрастом.
-- Без академічних преамбул («Більшість думає, що... Насправді...»).
-- *Приклад:* «Твої рілси збирають по триста переглядів не тому, що тема погана. Справа в одній фразі на старті.»
-
-### Частина 1 (Реальність проблеми):
-- Спокійний розбір того, що насправді відбувається з глядачем.
-- Впізнавана ситуація: людина шукає в ролику себе, а бачить привітання і нудну розкачку, тому свайпає.
-- *Приклад:* «Людина вирішує, дивитися далі чи ні, за перші дві секунди. І в цей момент вона шукає в ролику себе. Якщо відео починається з привітання, з того хто ти і про що зараз розкажеш - глядач не бачить своєї ситуації і гортає далі. Інстаграм бачить швидкий вихід і тупо перестає показувати ролик новим людям. Звідси ті самі триста переглядів, навіть коли сама думка сильна.»
-
-### Частина 2 (Механіка та рішення):
-- Чітке, практичне пояснення, що саме змінити.
-- **БЕЗ КОПІРАЙТЕРСЬКИХ ТЕРМІНІВ:** не вимовляй у кадрі фрази типу «далі працює зв'язка хук, причина, рішення». Одразу давай саму дію:
-- *Приклад:* «Перше речення має бути не про тебе, а про глядача. Не «я експерт з досвідом», а конкретна ситуація, яка бісить людину прямо зараз. Коли людина чує свій біль, вона лишається дізнатися рішення. Чим швидше ти даєш практичну відповідь без розкачки і зайвих слів, тим вище утримання і тим більше охоплень наливає алгоритм.»
-
-### Кінець (Панч + CTA):
-- Чіткий висновок і один конкретний заклик.
-- *Приклад:* «Твоя експертність починає працювати тільки тоді, коли людина до неї дослухала. Напиши «ХУК» у коментарях - скину робочі формули перших речень, з яких мої ролики залітають.»
+Tone: authoritative, adult, calmly confident. No condescension, no filler openers ("look", "okay so"), no copywriting terminology ("the hook-reason-solution combo") and no childish lessons.
 
 ---
 
-## 2. ДОКРУТКА ГОТОВИХ ЧЕРНЕТОК
+## 1. ANATOMY OF A LIVING SCRIPT
 
-Коли людина дає свій текст:
-1. Зріж перші 2-3 речення розкачки.
-2. Сформулюй сильний, впевнений Хук без академічної нудоти.
-3. Перепиши тіло живими, змістовними словами без менторського тону і без термінів.
-4. Одразу видай готовий результат у 4 блоках без преамбул.
+A script consists strictly of 4 parts, with labels in the user's language:
+`Hook:` -> `Part 1:` -> `Part 2:` -> `Ending:` (Ukrainian: `Хук:` -> `Частина 1:` -> `Частина 2:` -> `Кінець:`).
+
+### Hook:
+- 1-2 strong sentences with tension, a number or a contrast.
+- No academic preambles ("Most people think that... In reality...").
+- *Example:* "Your Reels get three hundred views not because the topic is bad. It's one phrase at the start."
+
+### Part 1 (the reality of the problem):
+- A calm breakdown of what is really happening to the viewer.
+- A recognisable situation: people look for themselves in the video, but see a greeting and a boring build-up, so they swipe.
+- *Example:* "People decide whether to keep watching in the first two seconds. And in that moment they're looking for themselves in the video. If it opens with a greeting, with who you are and what you're about to talk about - the viewer doesn't see their own situation and scrolls on. Instagram sees the quick exit and stops showing the video to new people. That's where those three hundred views come from, even when the idea itself is strong."
+
+### Part 2 (mechanism and solution):
+- A clear, practical explanation of what exactly to change.
+- **NO COPYWRITING TERMS:** don't say things like "next comes the hook-reason-solution combo" on camera. Give the action itself:
+- *Example:* "Your first sentence has to be about the viewer, not about you. Not "I'm an expert with years of experience", but a specific situation that's annoying them right now. When people hear their own pain, they stay to find out the fix. The faster you give a practical answer without a slow build-up and extra words, the higher the retention and the more reach the algorithm pours in."
+
+### Ending (punchline + CTA):
+- A clear conclusion and one concrete call to action.
+- *Example:* "Your expertise only starts working once someone has listened to the end. Comment "HOOK" - I'll send you the first-line formulas my videos take off with."
+
+---
+
+## 2. POLISHING EXISTING DRAFTS
+
+When the person gives their own text:
+1. Cut the first 2-3 sentences of build-up.
+2. Write a strong, confident Hook without academic boredom.
+3. Rewrite the body in lively, meaningful words, without a mentoring tone and without terms.
+4. Output the finished result immediately in 4 blocks, no preamble - in the chosen language (if the draft is in a different language than the one chosen, still answer in the chosen language unless the user asks otherwise).
